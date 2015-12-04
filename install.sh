@@ -208,6 +208,7 @@ function prepare_repo() {
     fi
     mkdir -p $REPO_PATH/vsm-dep-repo
     cd $REPO_PATH
+    cp ../vsmrepo/*.deb .
     cp *.deb vsm-dep-repo
     dpkg-scanpackages vsm-dep-repo | gzip > vsm-dep-repo/Packages.gz
     cd $TOPDIR
