@@ -1,0 +1,30 @@
+[vsm_controller_ip]
+10.41.0.196
+
+[role]
+storage
+monitor
+
+[auth_key]
+token-tenant
+
+[ssd]
+#format [ssd_device]  [journal_device] 
+
+[hdd]
+#format [sata_device]  [journal_device]
+/dev/sda1     /dev/sdq1
+/dev/sdb1     /dev/sdq2
+/dev/sdc1     /dev/sdq3
+/dev/sdd1     /dev/sdq4
+/dev/sdf1     /dev/sdq5
+/dev/sdg1     /dev/sdq6
+/dev/sdh1     /dev/sdq7
+/dev/sdi1     /dev/sdr1
+/dev/sdj1     /dev/sdr2
+/dev/sdk1     /dev/sdr3
+/dev/sdl1     /dev/sdr4
+/dev/sdm1     /dev/sdr5
+/dev/sdn1     /dev/sdr6
+/dev/sdo1     /dev/sdr7
+/dev/sdp1     /dev/sdr8
