@@ -91,7 +91,7 @@ set -o xtrace
 
 echo "Before auto deploy the vsm, please be sure that you have set the manifest 
 such as manifest/192.168.100.100/server.manifest. And you have changed the file, too."
-sleep 5
+sleep 1
 
 TOPDIR=$(cd $(dirname "$0") && pwd)
 TEMP=`mktemp`; rm -rfv $TEMP >/dev/null; mkdir -p $TEMP;
